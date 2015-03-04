@@ -1,9 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
 
 $body-bg: green;
 $navbar-inverse-bg: #2ecc71;
 $navbar-inverse-link-color: yellow;
 $brand-primary: pink;
-$jumbotron-bg: grey;
+$jumbotron-bg: silver;
+
+.center {
+	text-align: center;
+
+}
+
+.navbar-brand{
+	font-weight:bold;
+}
 
 
 @import 'bootstrap';
