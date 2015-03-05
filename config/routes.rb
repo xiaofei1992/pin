@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   get 'pages/home'
 
   get 'contact' => 'pages#contact'
-
-  root 'pages#home'
+  root 'pins#index'
+  #root 'pages#home'
   #get 'pages/home'
   get 'about' => 'pages#about'   #create about_path
   get 'home' => 'pages#home'
