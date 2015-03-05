@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -17,6 +18,8 @@ gem 'devise', '~> 3.4.1'
 gem 'bootstrap-sass'
 
 gem "paperclip", "~> 3.0"
+gem 'aws-sdk', '~> 1.5.7'
+gem 'masonry-rails'
 
 
 group :development, :test do 
